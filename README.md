@@ -10,18 +10,18 @@ The package package_name is used to:
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
 
 ```bash
-pip install package_name
+pip install image_processing
 ```
 
 ## Usage
 
 ```python
-from package_name import file1_name
-file1_name.my_function()
+from image_processing import processor
+ImageProcessor.resize()
 ```
 
 ## Author
-My_name
+Claudson Barros
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
